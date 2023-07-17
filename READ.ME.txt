@@ -1,1 +1,1 @@
-Had to add this folder called " dump folder" because the size was not enough to upload
+This is a simple PING PONG GAME IMPLEMENTATION I DID FOR MY CODING NINJAS COURSE.
