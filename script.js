@@ -28,6 +28,8 @@ let gameContainer=document.getElementById("game-container");
 let aPressed=false;
 let dPressed=false;
 let score=0;
+let gameStart = false;
+let gameRunning = false;
 
 
 // document.addEventListener("keypress",function(){
@@ -96,11 +98,10 @@ function checkCollission(activepaddle){
         return true;
       }
        else return false;
-}
-
-
+}    
 
 function gameLoop(){
+  if (gameRunning) {
   if(ball.offsetLeft<0){
     Vx=-Vx;
   }
